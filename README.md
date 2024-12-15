@@ -21,7 +21,7 @@ Project created using Python
 
 ## Approach
 * Started with Data cleaning and preprocessing. TCH dataset has large number of missing values and outliers which are handled using impute methods and robust scaler
-* Imbalanced data is handled using SMOTE
+* Imbalanced data is handled using SMOTE which increased accuracy 
 * Once the data is cleaned up we have built four models and run to evaluate the results based on evaluation metrics
 * Understanding the nature of Type I and Type II errors in this case.
 
