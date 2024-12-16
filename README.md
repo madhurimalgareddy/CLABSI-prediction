@@ -21,9 +21,14 @@ Project created using Python
 
 ## Approach
 * Started with Data cleaning and preprocessing. TCH dataset has large number of missing values and outliers which are handled using impute methods and robust scaler
-* Imbalanced data is handled using SMOTE which increased accuracy 
+* Imbalanced data is handled using SMOTE which increased Recall and Precision
 * Once the data is cleaned up we have built four models and run to evaluate the results based on evaluation metrics
 * Understanding the nature of Type I and Type II errors in this case.
 
 ## Insights
-* Of all the models Random Forest seem to have better results 
+* All the models have high accuracy and showed better Recall and Pecision after handling data imbalance with SMOTE
+* We have increased the recall and precision by 30% just by handling imbalance
+* Feature selection would be helpful to further improve the Recall and Precision
+* Hyperparameter tuning is another way of improving Recall and Precision 
+* from a business perspective espicially in  health care misdiagnosis lead to serious issues like trauma, prolonged delay of treatment and in some cases death.
+
