@@ -24,7 +24,8 @@ Project created using Python
 * Imbalanced data is handled using SMOTE which increased Recall and Precision
 * Once the data is cleaned up we have built four models and run to evaluate the results based on evaluation metrics
 * Understanding the nature of Type I and Type II errors in this case.
-
+* This file has code for analysis
+[CLABSI PREDICTION.ipynb](https://github.com/madhurimalgareddy/CLABSI-prediction/blob/main/CLABSI%20PREDICTION.ipynb)
 ## Insights
 * All the models have high accuracy and showed better Recall and Pecision after handling data imbalance with SMOTE
 * We have increased the recall and precision by 30% just by handling imbalance
